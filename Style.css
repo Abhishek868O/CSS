@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+.box{
+    width: 290px;
+    height:450px;
+    padding: 30px;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    opacity: 0.8;
+    box-shadow: 0 5px 10px -5px #03f8ec;
+}
+.box h1{
+    top:25px;
+    color: #191919;
+    font-weight: 600;
+    text-shadow: 0 0 5px #5ae9e2,
+                0 0 25px #5ae9e2,
+                0 0 50px #5ae9e2,
+                0 0 200px #5ae9e2;
+}
+.hr{
+
+    width:300px;
+    background: #007973;
+}
+.box p2
+{
+    font-size: 19px;
+    color: #118d87;
+    
+}
+.box p3
+{
+    color: #118d87;
+    font-size: 15px;
+    float: inline-end;
+    padding:0;
+}
+.box input[type="text"], .box input[type="Password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #118d87;
+    padding: 14px 10px;
+    width: 180px;
+    outline: none;
+    color: #fff;
+    border-radius:24px; 
+    transition: 0.25s;
+}
+.box input[type="text"]:focus, .box input[type="Password"]:focus
+{
+    width: 250px;
+    border-color: #6efff8;
+}
+.box input[type="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #118d87;
+    padding: 14px 40px;
+    outline: none;
+    color: #fff;
+    border-radius:10px; 
+    transition: 0.25s;
+    cursor: pointer;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+.box input[type="submit"]:hover
+{
+    background: #03f8ec;
+    color: #001312;
+    border-color: #03f8ec;
+    box-shadow: 0 0 5px #03f8ec,
+                0 0 25px #03f8ec,
+                0 0 50px #03f8ec,
+                0 0 200px #03f8ec;           
+}
+.icons{
+    position: relative;
+    transform: translateY(-50%);
+    width:100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+.btn{
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    background: #191919;
+    opacity: 0.8;
+    margin: 10px;
+    border-radius: 40%;
+    box-shadow: 0 5px 15px -5px #03f8ec;
+    color:#3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn i{
+    line-height:65px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+.btn:hover i{
+    transform: scale(1.3);
+}
